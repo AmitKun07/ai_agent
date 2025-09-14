@@ -40,8 +40,9 @@ It helps you **track expenses, incomes, balances, and plan your finances** direc
 ---
 ## 💬 Usage
    Once running, type your queries in the terminal.
+   
    Examples:
-   ```bash
+   ``` bash
    User: Add an expense of 500 for groceries
    Assistant: Added to the database.
 
@@ -52,7 +53,7 @@ It helps you **track expenses, incomes, balances, and plan your finances** direc
    Assistant: 1500 INR
 
    User: bye
-
+   ```
 
 ---  
 
