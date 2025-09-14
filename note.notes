@@ -1,0 +1,27 @@
+// console.log("Hello via Bun!");
+// console.log(process.env.GROQ_API_KEY);
+import Groq from "groq-sdk";
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+
+async function main() {
+  const completion = await groq.chat.completions
+    .create({
+      messages: [
+        {
+            role:"system",
+            content:"You are Josh, a personal finance assistant. Your task is to assist user with their expenses, balances and financial planning."
+        },
+        {
+          role: "user",
+          content: "who are you ?",
+        },
+      ],
+      model: "llama-3.3-70b-versatile",
+    })
+    //   console.log(chatCompletion.choices[0]?.message?.content || "");
+      console.log(JSON.stringify(completion.choices[0], null, 2));
+      
+   
+}
+
+main();
