@@ -1,15 +1,29 @@
-# first_agent
+# 💰 Josh - Your Personal Finance AI Agent
 
-To install dependencies:
+Josh is an AI-powered personal finance assistant built with [Groq SDK](https://groq.com) and Node.js.  
+It helps you **track expenses, incomes, balances, and plan your finances** directly from the terminal.  
 
-```bash
-bun install
-```
+---
 
-To run:
+## 🚀 Features
+- Add expenses and incomes  
+- Track total expenses within a given period  
+- Get current balance (income - expenses)  
+- Interactive CLI chat powered by `llama-3.3-70b-versatile`  
+- Extendable with new financial tools  
 
-```bash
-bun run agent.js
-```
+---
 
-This project was created using `bun init` in bun v1.2.21. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+##  Tech Stack
+- **Node.js** (with ES modules)  
+- **Groq SDK** for LLM-powered conversations  
+- **Readline** for interactive CLI input  
+
+---
+
+## 🔧 Setup & Installation
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/yourusername/finance-ai-agent.git
+   cd finance-ai-agent
