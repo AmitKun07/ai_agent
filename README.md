@@ -25,8 +25,8 @@ It helps you **track expenses, incomes, balances, and plan your finances** direc
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/finance-ai-agent.git
-   cd finance-ai-agent
+   git clone https://github.com/AmitKun07/ai_agent.git
+   cd ai-agent
 2. Install dependencies:
    ```bash
    npm install
