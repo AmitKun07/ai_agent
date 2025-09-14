@@ -27,3 +27,50 @@ It helps you **track expenses, incomes, balances, and plan your finances** direc
    ```bash
    git clone https://github.com/yourusername/finance-ai-agent.git
    cd finance-ai-agent
+2. Install dependencies:
+   ```bash
+   npm install
+3. Set your Groq API key in .env file:
+   ```bash
+   GROQ_API_KEY=your_api_key_here
+4. Run the agent:
+   ```bash
+   bun run agent.js
+   node agent.js
+---
+## 💬 Usage
+   Once running, type your queries in the terminal.
+   Examples:
+   ```bash
+   User: Add an expense of 500 for groceries
+   Assistant: Added to the database.
+
+   User: Add income of 2000 as salary
+   Assistant: Added to the income database.
+
+   User: What’s my current balance?
+   Assistant: 1500 INR
+
+   User: bye
+
+
+---  
+
+## ⚠️ Notes
+   - Currently, data is stored in-memory only (resets when you restart the program).  
+   - getTotalExpense does not yet filter by date range — only sums all expenses.  
+   - For persistence, consider integrating a database.
+
+ ## 🛠️ Future Improvements
+   - ✅ Date-based expense tracking  
+   - ✅ Persistent database (SQLite/MongoDB)  
+   - ✅ Web/desktop interface.
+
+## 📄 License
+    MIT License. Free to use and modify.
+
+
+
+    
+    
+
